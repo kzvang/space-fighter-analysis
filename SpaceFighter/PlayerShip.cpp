@@ -5,7 +5,7 @@
 void PlayerShip::LoadContent(ResourceManager& resourceManager)
 {
 	ConfineToScreen();
-	SetResponsiveness(0.1);
+	SetResponsiveness(0.01);
 
 	m_pTexture = resourceManager.Load<Texture>("Textures\\PlayerShip.png");
 

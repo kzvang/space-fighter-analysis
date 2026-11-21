@@ -25,6 +25,9 @@ public:
 		@param spriteBatch A reference to the game's sprite batch, used for rendering. */
 	virtual void Draw(SpriteBatch& spriteBatch);
 
+	// Handles the enemy ship being hit by a projectile.
+	virtual void Hit(const float damage); 
+
 
 private:
 

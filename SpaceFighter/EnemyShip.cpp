@@ -39,7 +39,7 @@ void EnemyShip::Initialize(const Vector2 position, const double delaySeconds)
 	Ship::Initialize();
 }
 
-
+// Called when the ship is hit
 void EnemyShip::Hit(const float damage)
 {
 	Ship::Hit(damage);
